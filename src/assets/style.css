@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --brand-navy: #001b3a;
+  --brand-navy-soft: #193151;
+  --brand-sky: #ebf1ff;
+  --brand-accent: #ff7020;
+  --brand-accent-hover: #e56010;
+  --copy-muted: #4b5563;
+  --border-soft: #e5e7eb;
+  --radius-card: 0.5rem;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: var(--brand-navy);
+  background-color: #fff;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.muted {
+  color: var(--copy-muted);
+}
+
+.header-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@keyframes aircraft-slide-next {
+  from {
+    opacity: 0;
+    transform: translateX(26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes aircraft-slide-prev {
+  from {
+    opacity: 0;
+    transform: translateX(-26px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.aircraft-slide-next {
+  animation: aircraft-slide-next 450ms ease-out;
+}
+
+.aircraft-slide-prev {
+  animation: aircraft-slide-prev 450ms ease-out;
+}
