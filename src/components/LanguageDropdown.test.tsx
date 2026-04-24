@@ -1,6 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react"
 import LanguageDropdown from "./LanguageDropdown"
-import { useTranslation } from "react-i18next"
 import { vi } from "vitest"
 
 // Mock useTranslation
