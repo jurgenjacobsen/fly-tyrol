@@ -4,7 +4,7 @@ function ValuesSection() {
     const { t } = useTranslation()
 
     return (
-        <section className="py-12 md:py-16" id="values">
+        <section className="py-12 md:py-16 bg-[#EBF1FF]" id="values">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="mb-6 flex items-end gap-6">
                     <div>

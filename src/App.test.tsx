@@ -4,7 +4,7 @@ import App from './App.tsx'
 describe('App', () => {
   it('renders the main heading', () => {
     render(<App />)
-    expect(screen.getByRole('heading', { name: /fly tyrol/i })).toBeInTheDocument()
+    expect(screen.getAllByRole('heading', { name: /fly tyrol/i })[0]).toBeInTheDocument()
   })
 
   it('renders the footer', () => {

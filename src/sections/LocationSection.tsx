@@ -19,7 +19,7 @@ function LocationSection() {
     const position: [number, number] = [47.257489, 11.354347]
 
     return (
-        <section className="bg-[#EBF1FF] py-12 md:py-16" id="location">
+        <section className="py-12 md:py-16" id="location">
             <div className="mx-auto grid max-w-7xl items-stretch gap-6 px-6 lg:grid-cols-2">
                 <div className="rounded-md bg-[#001B3A] p-8 text-white">
                     <p className="mb-2 text-sm font-bold uppercase tracking-wider text-[#FF7020]">
