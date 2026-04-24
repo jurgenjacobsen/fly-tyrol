@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { MapContainer, Marker, TileLayer } from "react-leaflet"
+import { MapContainer, Marker, TileLayer, ZoomControl } from "react-leaflet"
 import L from "leaflet"
 import markerIcon from "leaflet/dist/images/marker-icon.png"
 import markerIcon2x from "leaflet/dist/images/marker-icon-2x.png"
@@ -53,12 +53,14 @@ function LocationSection() {
                         center={position}
                         zoom={15}
                         scrollWheelZoom={false}
+                        zoomControl={false}
                         className="h-full min-h-90 w-full"
                     >
                         <TileLayer
-                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+                            url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
                         />
+                        <ZoomControl position="topright" />
                         <Marker position={position} />
                     </MapContainer>
                 </div>
