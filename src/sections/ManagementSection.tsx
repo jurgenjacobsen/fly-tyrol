@@ -5,7 +5,7 @@ function ManagementSection() {
     const { t } = useTranslation()
 
     return (
-        <section className="bg-white py-12 md:py-16 " id="management">
+        <section className="py-12 md:py-16 " id="management">
             <div className="mx-auto max-w-7xl px-6">
                 <div className="mb-12 text-center">
                     <p className="mb-2 text-sm font-bold uppercase tracking-wider text-[#FF7020]">
@@ -18,7 +18,7 @@ function ManagementSection() {
 
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {/* CEO / Managing Director */}
-                    <div className="rounded-xl border border-neutral-100 bg-neutral-50 p-8 shadow-sm transition-all hover:shadow-md">
+                    <div className="rounded-md border border-neutral-200 p-6">
                         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-[#001B3A] text-white">
                             <Users size={24} />
                         </div>
@@ -34,7 +34,7 @@ function ManagementSection() {
                     </div>
 
                     {/* Operations */}
-                    <div className="rounded-xl border border-neutral-100 bg-neutral-50 p-8 shadow-sm transition-all hover:shadow-md">
+                    <div className="rounded-md border border-neutral-200 p-6">
                         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-[#001B3A] text-white">
                             <ShieldCheck size={24} />
                         </div>
@@ -50,7 +50,7 @@ function ManagementSection() {
                     </div>
 
                     {/* Company History/Heritage */}
-                    <div className="rounded-xl border border-neutral-100 bg-neutral-50 p-8 shadow-sm transition-all hover:shadow-md">
+                    <div className="rounded-md border border-neutral-200 p-6">
                         <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-[#001B3A] text-white">
                             <History size={24} />
                         </div>

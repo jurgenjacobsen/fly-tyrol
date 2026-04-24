@@ -20,9 +20,9 @@ function App() {
             <main>
                 <PrivateBusinessSection />
                 <FleetSection />
-                <ManagementSection />
                 <ValuesSection />
                 <LocationSection />
+                <ManagementSection />
             </main>
             <Footer />
         </>
