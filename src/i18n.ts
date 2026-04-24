@@ -86,6 +86,11 @@ const en = {
         heritageTitle: "Our Heritage",
         heritageDescription: "Founded in 2001, Fly Tyrol has grown from a local Austrian operator into a trusted European partner for executive travel.",
     },
+    disclaimer: {
+        title: "Disclaimer",
+        body: "This website is a case study and not the official website of Fly Tyrol (flytyrol.com). I do not own the copyrights to the images or content used here. This project was created for educational purposes. If you are the operator of Fly Tyrol and wish for this site to be removed, please contact me and it will be taken down immediately.",
+        acknowledge: "I understand",
+    },
     footer: {
         contact: "Contact",
         location: "Location",
@@ -201,6 +206,11 @@ const de = {
         opsDescription: "Sabine Oberleiter leitet unseren täglichen Betrieb und Dispatch und koordiniert nahtlose Flugplanung sowie 24/7-Support für unsere Kunden.",
         heritageTitle: "Unser Erbe",
         heritageDescription: "Gegründet im Jahr 2001, hat sich Fly Tyrol von einem lokalen österreichischen Betreiber zu einem vertrauenswürdigen europäischen Partner für Executive-Reisen entwickelt.",
+    },
+    disclaimer: {
+        title: "Haftungsausschluss",
+        body: "Diese Website ist eine Fallstudie und nicht die offizielle Website von Fly Tyrol (flytyrol.com). Ich besitze keine Urheberrechte an den hier verwendeten Bildern oder Inhalten. Dieses Projekt wurde zu Bildungszwecken erstellt. Wenn Sie der Betreiber von Fly Tyrol sind und die Löschung dieser Seite wünschen, kontaktieren Sie mich bitte, und sie wird umgehend entfernt.",
+        acknowledge: "Ich verstehe",
     },
     footer: {
         contact: "Kontakt",
@@ -318,6 +328,11 @@ const ru = {
         heritageTitle: "Наше наследие",
         heritageDescription: "Основанная в 2001 году, компания Fly Tyrol выросла из местного австрийского оператора в надежного европейского партнера в сфере представительских поездок.",
     },
+    disclaimer: {
+        title: "Отказ от ответственности",
+        body: "Этот веб-сайт является учебным проектом и не является официальным сайтом Fly Tyrol (flytyrol.com). Я не владею авторскими правами на использованные здесь изображения или контент. Этот проект был создан в образовательных целях. Если вы являетесь оператором Fly Tyrol и хотите, чтобы этот сайт был удален, пожалуйста, свяжитесь со мной, и он будет немедленно удален.",
+        acknowledge: "Я понимаю",
+    },
     footer: {
         contact: "Контакт",
         location: "Местоположение",
@@ -367,7 +382,7 @@ const pt = {
     privateBusiness: {
         privateCharterTitle: "Charter Privado",
         privateCharterBody:
-            "Viagens personalizadas para lazer. Fuja no seu próprio horário com total privacidade e serviço de bordo sob medida.",
+            "Viagens personalizadas para leisure. Fuja no seu próprio horário com total privacidade e serviço de bordo sob medida.",
         businessFlightsTitle: "Voos de Negócios",
         businessFlightsBody:
             "Eficiência para o executivo. Transforme o tempo de viagem em horas produtivas num ambiente de cabine pressurizado e silencioso.",
@@ -433,6 +448,11 @@ const pt = {
         opsDescription: "Sabine Oberleiter supervisiona as nossas operações diárias e despacho, coordenando um planeamento de voo contínuo e apoio 24/7 para os nossos clientes.",
         heritageTitle: "O Nosso Legado",
         heritageDescription: "Fundada em 2001, a Fly Tyrol cresceu de um operador local austríaco para um parceiro europeu de confiança para viagens executivas.",
+    },
+    disclaimer: {
+        title: "Aviso Legal",
+        body: "Este website é um estudo de caso e não o website oficial da Fly Tyrol (flytyrol.com). Não possuo os direitos de autor das imagens ou do conteúdo aqui utilizado. Este projeto foi criado para fins educacionais. Se for o operador da Fly Tyrol e desejar que este site seja removido, por favor contacte-me e o mesmo será retirado imediatamente.",
+        acknowledge: "Eu compreendo",
     },
     footer: {
         contact: "Contacto",
@@ -525,7 +545,7 @@ const es = {
         title: "Construidos sobre la confianza, la precisión y la discreción.",
         safetyTitle: "Seguridad Sin Compromisos",
         safetyBody:
-            "Desde los controles prevuelo hasta la preparación de la tripulación, cada detalle está alineado con estrictas normas de aviación y disciplina operativa.",
+            "Desde los controles prevuelo hasta la preparación de la tripulación, cada detalle está alinéado con estrictas normas de aviación y disciplina operativa.",
         precisionTitle: "Precisión Austriaca",
         precisionBody:
             "Planificamos con exactitud, comunicamos con claridad y ejecutamos puntualmente para que su día transcurra exactamente como lo planeó.",
@@ -544,11 +564,16 @@ const es = {
         eyebrow: "Liderazgo",
         title: "El equipo detrás de Fly Tyrol",
         ceoTitle: "Director Gerente",
-        ceoDescription: "Helmut Eder lidera Fly Tyrol con una visión de excelencia en la aviación ejecutiva, garantizando los más altos estándares de seguridad y servicio.",
+        ceoDescription: "Helmut Eder lidera Fly Tyrol con una visión de excelencia in la aviación ejecutiva, garantizando los más altos estándares de seguridad y servicio.",
         opsTitle: "Operaciones de Vuelo",
         opsDescription: "Sabine Oberleiter supervisa nuestras operaciones diarias y el despacho, coordinando una planificación de vuelo perfecta y soporte 24/7 para nuestros clientes.",
         heritageTitle: "Nuestra Herencia",
-        heritageDescription: "Fundada in 2001, Fly Tyrol ha pasado de ser un operador local austriaco a un socio europeo de confianza para viajes ejecutivos.",
+        heritageDescription: "Fundada en 2001, Fly Tyrol ha pasado de ser un operador local austriaco a un socio europeo de confianza para viajes ejecutivos.",
+    },
+    disclaimer: {
+        title: "Aviso Legal",
+        body: "Este sitio web es un estudio de caso y no es el sitio web oficial de Fly Tyrol (flytyrol.com). No poseo los derechos de autor de las imágenes ni del contenido utilizado aquí. Este proyecto fue creado con fines educativos. Si usted es el operador de Fly Tyrol y desea que este sitio sea eliminado, por favor contácteme y será retirado de inmediato.",
+        acknowledge: "Entiendo",
     },
     footer: {
         contact: "Contacto",
@@ -627,7 +652,7 @@ const fr = {
             phenom300e: {
                 name: "Phenom 300E",
                 description:
-                    "Un jet léger moderne conçu pour la vitesse, avec un intérieur spacieux et un profil de montée efficace.",
+                    "Un jet léger moderne conçu pour la vitesse, with un intérieur spacieux et un profil de montée efficace.",
             },
             challenger350: {
                 name: "Challenger 350",
@@ -660,11 +685,16 @@ const fr = {
         eyebrow: "Direction",
         title: "L'équipe derrière Fly Tyrol",
         ceoTitle: "Directeur Général",
-        ceoDescription: "Helmut Eder dirige Fly Tyrol avec une vision d'excellence dans l'aviation d'affaires, garantissant les normes les plus élevées de sécurité et de service.",
+        ceoDescription: "Helmut Eder dirige Fly Tyrol with a vision d'excellence dans l'aviation d'affaires, garantissant les normes les plus élevées de sécurité et de service.",
         opsTitle: "Opérations de Vol",
         opsDescription: "Sabine Oberleiter supervise nos opérations quotidiennes et la régulation, coordonnant une planification de vol fluide et un support 24/7 pour nos clients.",
         heritageTitle: "Notre Héritage",
         heritageDescription: "Fondée en 2001, Fly Tyrol est passée d'un opérateur autrichien local à un partenaire européen de confiance pour les voyages d'affaires.",
+    },
+    disclaimer: {
+        title: "Avertissement",
+        body: "Ce site web est une étude de cas et non le site officiel de Fly Tyrol (flytyrol.com). Je ne possède pas les droits d'auteur des images ou du contenu utilisé ici. Ce projet a été créé à des fins éducatives. Si vous êtes l'exploitant de Fly Tyrol et souhaitez que ce site soit supprimé, veuillez me contacter et il sera retiré immédiatement.",
+        acknowledge: "Je comprends",
     },
     footer: {
         contact: "Contact",
@@ -693,8 +723,8 @@ const fr = {
         german: "Allemand",
         russian: "Russe",
         portuguese: "Portugais",
-        spanish: "Espagnol",
-        french: "Francés",
+        spanish: "Español",
+        french: "Français",
     },
 }
 

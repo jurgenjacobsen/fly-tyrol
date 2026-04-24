@@ -9,7 +9,6 @@ type LanguageOption = {
 function LanguageDropdown() {
     const { t, i18n } = useTranslation()
     const [isOpen, setIsOpen] = useState(false)
-    const [focusedIndex, setFocusedIndex] = useState(0)
     const rootRef = useRef<HTMLDivElement | null>(null)
     const labelId = useId()
 
@@ -28,9 +27,7 @@ function LanguageDropdown() {
         options.findIndex((option) => currentLanguage?.startsWith(option.value)),
     )
 
-    useEffect(() => {
-        setFocusedIndex(selectedIndex)
-    }, [selectedIndex])
+    const [focusedIndex, setFocusedIndex] = useState(selectedIndex)
 
     useEffect(() => {
         const handleClickOutside = (event: MouseEvent) => {

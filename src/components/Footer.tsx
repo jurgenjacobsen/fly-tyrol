@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next"
 import LanguageDropdown from "./LanguageDropdown"
 
 function Footer() {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     return (
         <footer className="w-full bg-[#001B3A] pb-6 pt-12 text-white">
@@ -69,7 +69,7 @@ function Footer() {
                     </span>
                     <div className="flex gap-4">
                         <div>
-                            <LanguageDropdown />
+                            <LanguageDropdown key={i18n.resolvedLanguage || i18n.language} />
                         </div>
 
                         <span className="flex items-center gap-2">
