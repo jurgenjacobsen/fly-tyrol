@@ -127,7 +127,7 @@ function FleetSection() {
                                 className="min-w-full max-h-112 rounded-md object-cover"
                             />
                         </div>
-                        <div className="relative rounded-md bg-[#001B3A] p-6 pb-24 text-white">
+                        <div className="relative flex flex-col rounded-md bg-[#001B3A] p-6 text-white lg:pb-36">
                             <h3 className="mb-2 text-3xl font-bold text-white">
                                         {t(activeAircraft.nameKey)}
                             </h3>
@@ -146,12 +146,15 @@ function FleetSection() {
                                     <span>{activeAircraft.capacity}</span>
                                 </li>
                             </ul>
-                            <button className="absolute bottom-20 left-6 right-6 w-auto cursor-pointer rounded-md bg-[#314768] px-4 py-2 text-white transition-colors duration-300 hover:bg-[#193151]">
-                                        {t("fleet.fullSpecifications")}
-                            </button>
-                            <button className="absolute bottom-6 left-6 right-6 flex w-auto cursor-pointer items-center justify-center gap-1 rounded-md bg-[#FF7020] px-4 py-2 text-white transition-colors duration-300 hover:bg-[#E56010]">
-                                        {t("fleet.bookAircraft")} <ChevronRight size={18} />
-                            </button>
+                            
+                            <div className="mt-10 flex flex-col gap-3 lg:absolute lg:bottom-6 lg:left-6 lg:right-6 lg:mt-0">
+                                <button className="w-full cursor-pointer rounded-md bg-[#314768] px-4 py-2 text-white transition-colors duration-300 hover:bg-[#193151]">
+                                            {t("fleet.fullSpecifications")}
+                                </button>
+                                <button className="flex w-full cursor-pointer items-center justify-center gap-1 rounded-md bg-[#FF7020] px-4 py-2 text-white transition-colors duration-300 hover:bg-[#E56010]">
+                                            {t("fleet.bookAircraft")} <ChevronRight size={18} />
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
